@@ -8,10 +8,10 @@ public class TriggerAnimation : MonoBehaviour {
     private bool created = false;
 
     void Awake() {
-        if (GvrViewer.Instance == null) {
-            GvrViewer.Create();
-            created = true;
-        }
+//        if (GvrViewer.Instance == null) {
+//            GvrViewer.Create();
+//            created = true;
+//        }
     }
 
     void Start() {
